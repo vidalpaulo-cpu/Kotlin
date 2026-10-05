@@ -1,0 +1,18 @@
+<?php
+
+echo "Nota final (O a 10):“;
+
+$nota =(float)trim(fgets(STDIN));
+
+if ($nota <0 II $nota >10){
+
+echo "Nota invalida.\n";
+
+} elseif ($nota >=6){
+
+echo "Aprovado!\n";
+
+} else {
+echo "Em recuperação. \n";
+
+}
